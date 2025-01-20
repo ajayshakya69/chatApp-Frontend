@@ -16,7 +16,9 @@ export const useSocket = () => {
 export const Context = (props) => {
 
 
-    const socket = useMemo(() => io("http://localhost:2323/"), [])
+    // const socket = useMemo(() => io("http://localhost:2323/"), [])
+    const socket = useMemo(() => io(" https://chatapp-ajay.work.gd/"), [])
+
 
     // const socket = "ajay"
 

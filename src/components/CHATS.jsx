@@ -30,7 +30,9 @@ export default function WELCOME() {
 
 		try {
 			const authToken = localStorage.getItem('authToken'); // Assuming the token is stored in localStorage
-			const request = await fetch('http://127.0.0.1:2323/verifyJwt', {
+			// const request = await fetch('http://127.0.0.1:2323/verifyJwt', {
+			const request = await fetch(' https://chatapp-ajay.work.gd/verifyJwt', {
+
 				method: "GET",
 				credentials: "include",
 				headers: {

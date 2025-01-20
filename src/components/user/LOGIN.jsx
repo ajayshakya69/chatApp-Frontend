@@ -31,7 +31,9 @@ export default function LOGIN(props) {
   // function for sending data to the server and check the user details are correct or not
   async function sendLoginData() {
     console.log(user)
-    const request = await fetch('http://127.0.0.1:2323/login', {
+    // const request = await fetch('http://127.0.0.1:2323/login', {
+    const request = await fetch(' https://chatapp-ajay.work.gd/login', {
+
       method: "POST",
       credentials: "include",
       headers: {

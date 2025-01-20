@@ -50,7 +50,9 @@ export default function SIGNUP(props) {
     // }
 
 
-    const url = "http://localhost:2323/sign"
+    const url = " https://chatapp-ajay.work.gd/sign"
+    // const url = "http://localhost:2323/sign"
+
 
     const request = await fetch(url, {
       method: "POST",

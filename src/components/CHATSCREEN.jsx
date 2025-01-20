@@ -146,7 +146,9 @@ export default function CHATSCREEN(props) {
                 toWhomSendId: sent_to_who_id
             }
 
-            const request = await fetch('http://127.0.0.1:2323/getmsg', {
+            // const request = await fetch('http://127.0.0.1:2323/getmsg', {
+            const request = await fetch(' https://chatapp-ajay.work.gd/getmsg', {
+
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
